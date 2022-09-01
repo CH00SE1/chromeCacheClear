@@ -7,11 +7,31 @@ bin-release/
 # Other files and folders
 .settings/
 
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
 # Executables
 *.swf
 *.air
 *.ipa
 *.apk
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+/sale_logs/
+
+### VS Code ###
+.vscode/
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
