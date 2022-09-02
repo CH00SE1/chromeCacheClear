@@ -1,8 +1,6 @@
 package main
 
-import (
-	"ClearChromeCache/Mb"
-)
+import "ClearChromeCache/pdf"
 
 /**
  * @title 主程序
@@ -12,7 +10,8 @@ import (
 
 // 启动程序
 func main() {
-	pathTmp := "C:\\Users\\Administrator\\Desktop\\"
-	Mb.DirSizeMain(pathTmp)
+	//pathTmp := "D:\\path\\go_moudles\\pkg\\mod"
+	//Mb.DirSizeMain(pathTmp)
 	//ClearCache.FilePathDelete(pathTmp)
+	pdf.PdfSaveLocal()
 }
